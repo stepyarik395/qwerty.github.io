@@ -1,0 +1,100 @@
+.max-height{
+    max-height: 500px;
+}
+.fabric-wrapper{
+    display:flex;
+    justify-content:center;
+
+        main{
+            max-width: 1170px;
+        }
+
+}
+.main-text-wrapper{
+
+            p{
+                font-size: 0.95rem;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                color:#6e6e6e;
+
+
+                    &:nth-child(1){
+                        margin-top:2rem;
+                    }
+                    &:nth-child(2){
+                        margin-top:1rem;
+                    }
+            }
+}
+
+.wrapper-cards{
+    margin-top:2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-item{
+    // padding:0 1rem 1rem 1rem;
+    box-shadow: 0 3px 3px rgba(0,0,0,.29);
+    flex-basis: 22%;
+
+        div{
+            display: flex;
+            justify-content:center;
+            height: 80px;
+            background-color: #4e4e4e;
+
+        }
+        &:hover div{
+            transition:all 0.5s;
+            background-color: #0dc0c0;
+        }
+
+        h4{
+            padding:0.5rem;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            color:#fff;
+            // background-color: #4e4e4e;
+        }
+
+            span{
+                margin-top:1rem;
+                display: block;
+                font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color:#6b6b6b;
+
+            }
+
+            p{
+                padding:0.5rem;
+                margin-top:1rem;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                color:#6b6b6b;
+
+            }
+}
+.list__card{
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-bottom:0.5rem;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+        li{
+            width:100%;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            color:#6b6b6b;
+           
+        }
+      
+}
+.card-title{
+    display: block;
+    text-align: center;
+}

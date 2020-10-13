@@ -1,0 +1,52 @@
+.contact-wrapper{
+    display: flex;
+   justify-content: center;
+
+            main{
+                width:1170px;
+            }
+}
+.wrapper-wigets{
+  justify-content:space-between;
+    display: flex;
+
+}
+.wiget{
+
+        h5{
+            margin-top:30px;
+            margin-bottom:20px;
+            color:#4b5c5c;
+            font-weight: 700;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+          
+        }
+
+
+        span{
+            color:#4b5c5c;
+            margin-top:0.5rem;
+            margin-bottom:0.5rem;
+            font-size: 0.95rem;
+            font-weight: 400;
+            font-family: 'Oswald', sans-serif;
+            display: block;
+            
+        }
+        label{
+            color:#4b5c5c;
+            font-size: 0.95rem;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            display: block;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            color:#4b5c5c;
+        }
+
+}

@@ -1,0 +1,40 @@
+.taloring-wrapper{
+    display: flex;
+    justify-content:center;
+
+            main{
+                max-width:1170px;
+
+
+                        p{
+                            font-size: 0.95rem;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: 400;
+                            color:#6e6e6e;
+
+                                &:nth-child(1){
+                                    margin-top:1rem;
+                                }
+
+                                &:nth-child(2){
+                                    margin-top:1rem;
+                                }
+                                &:nth-child(3){
+                                    margin-top:1rem;
+                                }
+                        }
+
+                        ul{
+                            margin-top:1rem;
+                            margin-left:1.8rem;
+                            li{
+                                font-family: 'Lato', sans-serif;
+                                font-weight: 400;
+                                color:#6e6e6e;
+                                font-size: 0.95rem;
+
+                            }
+                        }
+
+            }
+}

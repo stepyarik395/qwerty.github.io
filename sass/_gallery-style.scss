@@ -1,0 +1,178 @@
+.gallery-wrapper{
+    display:flex;
+    justify-content:center;
+   
+
+            main{
+                max-width:1170px;
+               
+            }
+}
+.text-gallery{
+    margin-top:1rem;
+    font-size: 0.95rem;
+    color:#6e6e6e;;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+}
+.wrapper-buttons{
+    margin-top:1rem;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+        button{
+            outline: none;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 0.95rem;
+            margin:10px;
+            cursor: pointer;
+            padding: 4px 12px;
+            background-color: transparent;
+            color:#221f1f;
+            border: 1px solid #bb2c21;
+            transition: all 0.2s ease;
+
+
+            &:active{
+             
+                background-color: #bb2c21;
+                color:#fff;
+            }
+        }
+
+        
+}
+
+
+
+
+    .small-pic{
+   
+        
+         width:360px;
+        height: 237px;
+    }
+            
+
+
+    
+    
+        .big-pic{
+            width:360px;
+            height: 547.52px;
+           
+
+        }
+        
+       
+
+
+
+.wrapper-global{
+    display: flex;
+   
+}
+
+
+
+
+
+// }
+.flex-container-1-column-image{
+    display: flex;
+    flex-direction: column;
+
+            a{
+                margin:15px;
+            }
+}
+.flex-item{
+    display:flex;
+
+        div{
+           
+           
+        }
+
+        a{
+            margin:15px;
+        }
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+.gradient {
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;    
+    line-height: 0;
+
+       
+}
+.gradient:hover:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    z-index: 101;
+    top: 0;    
+    left: 0;   
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+.gradient:hover:before {
+    
+    content: "Project-Title \A\01F517";
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    // width: 52px;
+    // height: 52px;
+    // margin: -26px 0 0 -26px;
+    position: absolute;
+    font-size: 1.3rem;
+    top: 50%;
+    left: 32%;
+    color:#fff;
+    text-transform: uppercase;
+    white-space: pre;
+    line-height: 1.2;
+    text-align: center;
+    // background: url(https://snipp.ru/img/plus.png) 0 0 no-repeat;
+    z-index: 110;
+}
+
+
+
+
+
+
+
+
+.hide-text{
+    z-index: 100;
+    bottom:150px;
+    left:110px;
+    position: absolute;
+    display:none;
+  
+
+        h5{
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        font-family: 'Oswald', sans-serif;
+           position: absolute;
+            color:white;
+        }
+
+}

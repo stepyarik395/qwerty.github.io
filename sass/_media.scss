@@ -1,0 +1,319 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-content__item{
+        margin:0.5rem;
+    }
+    .small-pic{
+     
+      width:100%;
+      height: 100%;
+    }
+        .big-pic{
+            width:100%;
+      height: 100%;
+
+        }
+        .text-gallery{
+            padding:1rem;
+        }
+        .taloring-wrapper{
+            main{
+                p{
+                    padding:1rem;
+                }
+            }
+        }
+        .main-text-wrapper{
+
+            p{
+                padding:1rem;
+            }
+          
+            
+        }
+        .wrapper-wigets{
+            padding:1rem;
+        }
+    
+    
+
+
+}
+
+
+@media (max-width: 992px){
+    .wrapper-item-flex{
+        flex-direction: column;
+    }
+    .description__info{
+        padding:1rem;
+        font-size: 0.9rem;
+    }
+    .footer-nav{
+        a{
+            
+            font-size: 0.75rem;
+        }
+
+    }
+
+    .descktop-menu{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+    }
+    .burg-menu{
+        display: flex;
+    }
+
+    .small-pic{
+     
+        width:100%;
+        height: 100%;
+      
+      }
+          .big-pic{
+              width:100%;
+        height: 100%;
+  
+          }
+          .text-gallery{
+            padding:1rem;
+        }
+
+        .gradient:hover:before {
+    
+            content: "Project-Title \A\01F517";
+            display: inline-block;
+            font-weight: 600;
+            font-family: 'Oswald', sans-serif;
+            // width: 52px;
+            // height: 52px;
+            // margin: -26px 0 0 -26px;
+            position: absolute;
+            font-size: 1.3rem;
+            top: 50%;
+            left: 28%;
+            color:#fff;
+            text-transform: uppercase;
+            white-space: pre;
+            line-height: 1.2;
+            text-align: center;
+            // background: url(https://snipp.ru/img/plus.png) 0 0 no-repeat;
+            z-index: 110;
+        }
+
+        .taloring-wrapper{
+
+                main{
+                    p{
+                        padding:1rem;
+
+
+                        &:nth-child(1){
+                            margin-top:0;
+                        }
+
+                        &:nth-child(2){
+                            margin-top:0;
+                        }
+                        &:nth-child(3){
+                            margin-top:0;
+                        }
+                    }
+                }
+        }
+
+        .main-text-wrapper{
+
+            p{
+                padding:1rem;
+
+
+                &:nth-child(1){
+                    margin-top:0.5rem;
+                }
+                &:nth-child(2){
+                    margin-top:0.5rem;
+                }
+            }
+          
+            
+        }
+        .wrapper-wigets{
+            padding:1rem;
+        }
+       
+
+
+}
+
+
+
+@media (max-width: 768px){
+
+
+
+
+    .wrapper-global{
+        flex-direction:column;
+    }
+    
+
+    .gradient:hover:before {
+    
+        content: "Project-Title \A\01F517";
+        display: inline-block;
+        font-weight: 600;
+        font-family: 'Oswald', sans-serif;
+        // width: 52px;
+        // height: 52px;
+        // margin: -26px 0 0 -26px;
+        position: absolute;
+        font-size: 1.3rem;
+        top: 50%;
+        left: 30%;
+        color:#fff;
+        text-transform: uppercase;
+        white-space: pre;
+        line-height: 1.2;
+        text-align: center;
+        // background: url(https://snipp.ru/img/plus.png) 0 0 no-repeat;
+        z-index: 110;
+    }
+
+    .wrapper-cards{
+        flex-direction:column;
+    }
+    .card-item{
+        box-shadow: unset;
+           span{
+               margin-left:20px;
+           }
+           ul{
+            margin-left:20px;
+           }
+
+    }
+    .list__card{
+        
+      
+    }
+    .card-title{
+        text-align: inherit;
+    }
+   .wrapper-wigets{
+       padding:1rem;
+       flex-direction: column;
+   }
+
+
+}
+
+
+@media (max-width: 576px){
+
+
+    .footer-line{
+        align-items:flex-start;
+        flex-direction:column;
+    }
+    .footer-nav{
+
+            ul{
+                flex-direction: column;
+            }
+            a{
+                padding:0;
+            }
+
+
+
+            li:nth-child(1) a:after {
+                left:8px;
+                position: relative;
+                content: unset;
+    
+        }
+        li:nth-child(2) a:after {
+    
+            left:8px;
+                position: relative;
+                content: unset;
+    
+        }
+        li:nth-child(3) a:after {
+    
+            left:8px;
+                position: relative;
+                content: unset;
+    
+        }
+        li:nth-child(4) a:after {
+    
+            left:8px;
+                position: relative;
+                content: unset;
+    
+        }
+    }
+
+    header{
+        padding:1rem;
+    }
+    .header-line{
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+
+    .flex-item{
+        flex-direction:column;
+    }
+    .wrapper-buttons{
+        padding:2rem;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .gradient:hover:before {
+    
+        content: "Project-Title \A\01F517";
+        display: inline-block;
+        font-weight: 600;
+        font-family: 'Oswald', sans-serif;
+        // width: 52px;
+        // height: 52px;
+        // margin: -26px 0 0 -26px;
+        position: absolute;
+        font-size: 1.3rem;
+        top: 50%;
+        left: 38%;
+        color:#fff;
+        text-transform: uppercase;
+        white-space: pre;
+        line-height: 1.2;
+        text-align: center;
+        // background: url(https://snipp.ru/img/plus.png) 0 0 no-repeat;
+        z-index: 110;
+    }
+    .enter-mobile{
+        display: block;
+    }
+    .wiget{
+        text-align: center;
+    }
+    .main-content__item{
+        padding:0.5rem;
+       margin-left:0;
+       margin-right:0;
+       margin-top:1rem;
+        
+        
+            div{
+                img{
+                    width:40px;
+                    height: 40px;
+                }
+            }
+    }
+}
